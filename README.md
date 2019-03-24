@@ -61,3 +61,42 @@ Typically, good solutions have the following characteristics:
 #             ☠️☠️☠️☠️☠️
 
 `Every C++ program must have a special function named main (all lower case letters). When the program is run, execution starts with the first statement inside of function main and then continues sequentially.`
+
+
+
+ <details>
+<summary>QuizTime</summary>
+
+### What is a statement?
+
+` A statement is an instruction in a computer program that tells the computer to perform an action. `
+
+### What is a function?
+
+`A function is a collection of statements that executes sequentially. `
+
+### What is the name of the function that all program must have?
+
+`main`
+
+### When a program is run, where does execution start?
+
+`Execution starts with the first statement inside the main function. `
+
+### What symbol are statements in C++ often ended with?
+
+`The semicolon (;)`
+
+### What is a syntax error?
+
+`A syntax error is a compiler error that occurs at compile-time when your program violates the grammar rules of the C++ language. `
+
+### What is the C++ Standard Library?
+
+`A library file is a collection of precompiled code that has been “packaged up” for reuse in other programs. The C++ Standard Library is a library that ships with C++ that contains additional functionality to use in your programs. `
+
+
+
+
+
+</details>
