@@ -42,3 +42,22 @@ Typically, good solutions have the following characteristics:
 *    They are well documented (especially around any assumptions being made or limitations).
 *    They are built modularly, so parts can be reused or changed later without impacting other parts of the program.
 *    They are robust, and can recover or give useful error messages when something unexpected happens.
+## There are many different kinds of statements in C++:
+
+>    Declaration statements
+> 
+>    Jump statements
+> 
+>    Expression statements
+> 
+>    Compound statements
+> 
+>    Selection statements (conditionals)
+> 
+>    Iteration statements (loops)
+> 
+>    Try blocks
+
+#             ☠️☠️☠️☠️☠️
+
+`Every C++ program must have a special function named main (all lower case letters). When the program is run, execution starts with the first statement inside of function main and then continues sequentially.`
