@@ -95,6 +95,30 @@ Typically, good solutions have the following characteristics:
 
 `A library file is a collection of precompiled code that has been “packaged up” for reuse in other programs. The C++ Standard Library is a library that ships with C++ that contains additional functionality to use in your programs. `
 
+### What is data?
+
+`Data is any sequence of symbols (numbers, letters, etc…) that can be interpreted to mean something. `
+
+### What is a value?
+
+`A value is a single piece of data stored in memory. `
+
+### What is a variable?
+
+`A variable is a named region of memory. `
+
+### What is an identifier?
+
+`An identifier is the name that a variable is accessed by. `
+
+### What is a type?
+
+`A type tells the program how to interpret a value in memory. `
+
+### What is an integer?
+
+`An integer is a number that can be written without a fractional component. `
+
 
 
 
