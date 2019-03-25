@@ -119,6 +119,9 @@ Typically, good solutions have the following characteristics:
 
 `An integer is a number that can be written without a fractional component. `
 
+### What is the difference between initialization and assignment?
+
+`Initialization gives a variable a value at the point when it is created. Assignment gives a variable a value at some point after it is created. `
 
 
 

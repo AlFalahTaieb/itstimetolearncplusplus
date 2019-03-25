@@ -10,7 +10,7 @@ int sayHello() //Defining function
 
 int variableAssign()
 {
-    int width(5);
+    int width(5); // uniform initilization BEST PRACTICE TO DO :) 
 
     width = 7;
     std::cout << width;
@@ -21,3 +21,11 @@ int main()
     // sayHello();
     variableAssign();
 }
+
+
+/*
+int a = 5, b = 6; // copy initialization
+int c( 7 ), d( 8 ); // direct initialization
+int e{ 9 }, f{ 10 }; // uniform initialization (preferred)
+
+*/
