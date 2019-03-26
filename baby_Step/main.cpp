@@ -12,8 +12,11 @@ int variableAssign()
 {
     int width(5); // uniform initilization BEST PRACTICE TO DO :) 
 
-    width = 7;
-    std::cout << width;
+    width = 17;
+    std::cout 
+    << width
+    << " is the width of the Rectangle";
+    
 }
 
 int main()
