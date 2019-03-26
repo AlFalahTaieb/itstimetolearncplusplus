@@ -1,5 +1,5 @@
 #include <iostream> //Proc directive that indicate that we want to use this preprocessor
-
+using namespace std;
 int sayHello() //Defining function
 {
     std::cout                                   //console output
@@ -11,15 +11,41 @@ int sayHello() //Defining function
 int variableAssign()
 {
     int width(5); // uniform initilization BEST PRACTICE TO DO :)
-    std::cout<< "Enter a age: ";
+    std::cout << "Enter a age: ";
     std::cin >> width;
-    std::cout << "you were born in " << 2019-width << '\n';
+    std::cout << "you were born in " << 2019 - width << '\n';
+}
+
+int calcul()
+{
+    int x;
+    int y;
+    char i;
+
+    cout << "Enter an operator (+, -, *, /): ";
+    cin >> i;
+    std::cout << "Enter two numbers ";
+    std::cin >> x >> y;
+
+    switch (i)
+    {
+        case '+': std::cout << x+y << '\n';
+         break;
+        case '-': std::cout << x-y << '\n';
+         break;
+        case '*': std::cout << x*y << '\n';
+         break;
+        case '/': std::cout << x/y << '\n';
+            break;
+    }
+
 }
 
 int main()
 {
     // sayHello();
-    variableAssign();
+    // variableAssign();
+    calcul();
 }
 
 /*
