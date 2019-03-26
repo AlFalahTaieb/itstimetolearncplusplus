@@ -22,23 +22,26 @@ int calcul()
     int y;
     char i;
 
-    cout << "Enter an operator (+, -, *, /): ";
+    cout << "Enter an operator (+ ,  - ,  * ,  / ): ";
     cin >> i;
     std::cout << "Enter two numbers ";
     std::cin >> x >> y;
 
     switch (i)
     {
-        case '+': std::cout << x+y << '\n';
-         break;
-        case '-': std::cout << x-y << '\n';
-         break;
-        case '*': std::cout << x*y << '\n';
-         break;
-        case '/': std::cout << x/y << '\n';
-            break;
+    case '+':
+        std::cout << x << " + " << y << " = " << x + y << '\n';
+        break;
+    case '-':
+        std::cout << x << " - " << y << " = " << x - y << '\n';
+        break;
+    case '*':
+        std::cout << x << " * " << y << " = " << x * y << '\n';
+        break;
+    case '/':
+        std::cout << x << " / " << y << " = " << x / y << '\n';
+        break;
     }
-
 }
 
 int main()
