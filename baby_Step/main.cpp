@@ -10,13 +10,10 @@ int sayHello() //Defining function
 
 int variableAssign()
 {
-    int width(5); // uniform initilization BEST PRACTICE TO DO :) 
-
-    width = 17;
-    std::cout 
-    << width
-    << " is the width of the Rectangle";
-    
+    int width(5); // uniform initilization BEST PRACTICE TO DO :)
+    std::cout<< "Enter a age: ";
+    std::cin >> width;
+    std::cout << "you were born in " << 2019-width << '\n';
 }
 
 int main()
@@ -24,7 +21,6 @@ int main()
     // sayHello();
     variableAssign();
 }
-
 
 /*
 int a = 5, b = 6; // copy initialization
