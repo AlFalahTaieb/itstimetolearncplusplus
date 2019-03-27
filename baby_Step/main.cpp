@@ -16,7 +16,7 @@ int variableAssign()
     std::cout << "you were born in " << 2019 - width << '\n';
 }
 
-int calcul()
+void calcul()
 {
     int x;
     int y;

@@ -72,6 +72,32 @@ Typically, good solutions have the following characteristics:
 
 > `   >> is used with std::cin, and shows the direction that data is moving (if std::cin represents the keyboard, the input data is moving from the keyboard to the variable). std::cin >> x moves the value the user entered from the keyboard into x`
 
+
+### Undefined Behavior
+
+
+
+>    Your program produces different results every time it is run.
+
+>    Your program consistently produces the same incorrect result.
+
+
+>    Your program behaves inconsistently (sometimes produces the correct result, sometimes not).
+
+
+>    Your program seems like its working but produces incorrect results later in the program.
+
+>    Your program crashes, either immediately or later.
+
+>    Your program works on some compilers but not others.
+
+>    Your program works until you change some other seemingly unrelated code.
+
+
+
+
+
+
  <details>
 <summary>QuizTime</summary>
 
@@ -131,7 +157,13 @@ Typically, good solutions have the following characteristics:
 
 `Initialization gives a variable a value at the point when it is created. Assignment gives a variable a value at some point after it is created. `
 
+### What is an uninitialized variable? Why should you avoid using them?
+
+` An uninitialized variable is a variable that has not been given a value by the program (generally through initialization or assignment). Using the value stored in an uninitialized variable will result in undefined behavior. `
+
+### What is undefined behavior, and what can happen if you do something that exhibits undefined behavior?
 
 
+`Undefined behavior is the result of executing code whose behavior is not well defined by the language. The result can be almost anything, including something that behaves correctly. `
 
 </details>
