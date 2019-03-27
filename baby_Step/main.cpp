@@ -8,7 +8,7 @@ int sayHello() //Defining function
         << "and a final string ya chdoulaaaaaaaaa\n";
 }
 
-int variableAssign()
+int variableAssign() // Variable 
 {
     int width(5); // uniform initilization BEST PRACTICE TO DO :)
     std::cout << "Enter a age: ";
@@ -16,7 +16,7 @@ int variableAssign()
     std::cout << "you were born in " << 2019 - width << '\n';
 }
 
-void calcul()
+void calcul() // function declaration
 {
     int x;
     int y;
