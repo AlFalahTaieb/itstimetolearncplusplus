@@ -8,7 +8,7 @@ int sayHello() //Defining function
         << "and a final string ya chdoulaaaaaaaaa\n";
 }
 
-int variableAssign() // Variable 
+int variableAssign() // Variable
 {
     int width(5); // uniform initilization BEST PRACTICE TO DO :)
     std::cout << "Enter a age: ";
@@ -18,13 +18,14 @@ int variableAssign() // Variable
 
 void calcul() // function declaration
 {
-    int x;
-    int y;
-    char i;
 
     cout << "Enter an operator (+ ,  - ,  * ,  / ): ";
+    char i;
     cin >> i;
+
     std::cout << "Enter two numbers ";
+    int x;
+    int y;
     std::cin >> x >> y;
 
     switch (i)
