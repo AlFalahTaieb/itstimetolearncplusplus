@@ -22,7 +22,6 @@ void calcul() // function declaration
     cout << "Enter an operator (+ ,  - ,  * ,  / ): ";
     char i;
     cin >> i;
-
     std::cout << "Enter two numbers ";
     int x;
     int y;
