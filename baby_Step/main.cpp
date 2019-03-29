@@ -8,6 +8,24 @@ int sayHello() //Defining function
         << "and a final string ya chdoulaaaaaaaaa\n";
 }
 
+void compare()
+{
+    std::cout << "Enter two numbers to compare :\n";
+    int x;
+    int y;
+    std::cin >> x >> y;
+
+    if (x > y)
+    {
+        std::cout << x << " > " << y << '\n';
+    }
+    else
+    {
+        std::cout << y << " > " << x << '\n';
+    }
+}
+
+
 int variableAssign() // Variable
 {
     int width(5); // uniform initilization BEST PRACTICE TO DO :)
@@ -46,9 +64,12 @@ void calcul() // function declaration
 
 int main()
 {
+    {
+	int num { getValueFromUser() };
     // sayHello();
     // variableAssign();
-    calcul();
+    // calcul();
+    compare();
 }
 
 /*
