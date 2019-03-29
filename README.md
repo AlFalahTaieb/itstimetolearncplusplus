@@ -98,7 +98,7 @@ A **statement** is a type of instruction that causes the program to perform some
 
 A **function** is a collection of statements that execute sequentially. Every C++ program must include a special function named main. When you run your program, execution starts at the top of the main function.
 
-
+![](https://www.learncpp.com/images/CppTutorial/Chapter2/ParametersReturn.png)
 
 
  <details>

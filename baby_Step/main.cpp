@@ -8,6 +8,16 @@ int sayHello() //Defining function
         << "and a final string ya chdoulaaaaaaaaa\n";
 }
 
+int add(int x, int y, int z)
+{
+    return x + y + z;
+}
+
+int multiply(int x, int y)
+{
+    return x * y;
+}
+
 void compare()
 {
     std::cout << "Enter two numbers to compare :\n";
@@ -24,7 +34,6 @@ void compare()
         std::cout << y << " > " << x << '\n';
     }
 }
-
 
 int variableAssign() // Variable
 {
@@ -64,11 +73,12 @@ void calcul() // function declaration
 
 int main()
 {
-    
+
     // sayHello();
     // variableAssign();
     // calcul();
-    compare();
+    // compare();
+    std::cout << multiply(add(1, 2, 3), 4) << '\n';
 }
 
 /*
