@@ -64,8 +64,7 @@ void calcul() // function declaration
 
 int main()
 {
-    {
-	int num { getValueFromUser() };
+    
     // sayHello();
     // variableAssign();
     // calcul();
