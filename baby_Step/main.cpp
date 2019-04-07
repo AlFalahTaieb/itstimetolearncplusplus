@@ -42,7 +42,10 @@ int variableAssign() // Variable
     std::cin >> width;
     std::cout << "you were born in " << 2019 - width << '\n';
 }
-
+void doSomething()
+{
+    std::cout << "Hello!\n";
+}
 void calcul() // function declaration
 {
 
@@ -78,7 +81,11 @@ int main()
     // variableAssign();
     // calcul();
     // compare();
-    std::cout << multiply(add(1, 2, 3), 4) << '\n';
+    // std::cout << multiply(add(1, 2, 3), 4) << '\n';
+     int x{ 0 }; // x's lifetime begins here
+ 
+    doSomething(); // x is still alive during this function call
+    
 }
 
 /*
