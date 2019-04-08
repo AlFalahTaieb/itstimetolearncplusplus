@@ -104,6 +104,7 @@ A **function** is a collection of statements that execute sequentially. Every C+
 
 *Reusability* once a function is written, it can be written, it can be called a multiple times from within the probability of copy/pase errors.
 
+> When a function becomes too long, too complicated, or hard to understand, it can be split into multiple sub-functions. This is called refactoring.
 
 
 
