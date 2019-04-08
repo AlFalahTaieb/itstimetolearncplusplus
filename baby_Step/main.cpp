@@ -1,5 +1,8 @@
 #include <iostream> //Proc directive that indicate that we want to use this preprocessor
 using namespace std;
+#include "calcul.h"
+
+void calcul();
 int sayHello() //Defining function
 {
     std::cout                                   //console output
@@ -46,46 +49,18 @@ void doSomething()
 {
     std::cout << "Hello!\n";
 }
-void calcul() // function declaration
-{
-
-    cout << "Enter an operator (+ ,  - ,  * ,  / ): ";
-    char i;
-    cin >> i;
-    std::cout << "Enter two numbers ";
-    int x;
-    int y;
-    std::cin >> x >> y;
-
-    switch (i)
-    {
-    case '+':
-        std::cout << x << " + " << y << " = " << x + y << '\n';
-        break;
-    case '-':
-        std::cout << x << " - " << y << " = " << x - y << '\n';
-        break;
-    case '*':
-        std::cout << x << " * " << y << " = " << x * y << '\n';
-        break;
-    case '/':
-        std::cout << x << " / " << y << " = " << x / y << '\n';
-        break;
-    }
-}
 
 int main()
 {
 
     // sayHello();
     // variableAssign();
-    // calcul();
+    calcul();
     // compare();
     // std::cout << multiply(add(1, 2, 3), 4) << '\n';
-     int x{ 0 }; // x's lifetime begins here
- 
-    doSomething(); // x is still alive during this function call
-    
+    //int x{ 0 }; // x's lifetime begins here
+
+    // doSomething(); // x is still alive during this function call
 }
 
 /*
