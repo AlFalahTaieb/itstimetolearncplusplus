@@ -1,16 +1,15 @@
 #include <iostream> //Proc directive that indicate that we want to use this preprocessor
 using namespace std;
-#include "calcul.h"
+
+
+#include "functions/calcul.h"
+#include "functions/compare.h"
+#include "functions/age.h"
+
 
 void calcul();
-int sayHello() //Defining function
-{
-    std::cout                                   //console output
-        << "this is a string Chdoulaaaaaaaaa\n" //<< allow us to send letters or numbers to be outputed
-        << "this is another stirng Chdoula\n"
-        << "and a final string ya chdoulaaaaaaaaa\n";
-}
-
+int sayHello();
+void compare();
 int add(int x, int y, int z)
 {
     return x + y + z;
@@ -21,46 +20,19 @@ int multiply(int x, int y)
     return x * y;
 }
 
-void compare()
-{
-    std::cout << "Enter two numbers to compare :\n";
-    int x;
-    int y;
-    std::cin >> x >> y;
+int age();
 
-    if (x > y)
-    {
-        std::cout << x << " > " << y << '\n';
-    }
-    else
-    {
-        std::cout << y << " > " << x << '\n';
-    }
-}
 
-int variableAssign() // Variable
-{
-    int width(5); // uniform initilization BEST PRACTICE TO DO :)
-    std::cout << "Enter a age: ";
-    std::cin >> width;
-    std::cout << "you were born in " << 2019 - width << '\n';
-}
-void doSomething()
-{
-    std::cout << "Hello!\n";
-}
+
 
 int main()
 {
 
     // sayHello();
     // variableAssign();
-    calcul();
+    // calcul();
     // compare();
-    // std::cout << multiply(add(1, 2, 3), 4) << '\n';
-    //int x{ 0 }; // x's lifetime begins here
-
-    // doSomething(); // x is still alive during this function call
+    age();
 }
 
 /*
