@@ -100,6 +100,12 @@ A **function** is a collection of statements that execute sequentially. Every C+
 
 ![](https://www.learncpp.com/images/CppTutorial/Chapter2/ParametersReturn.png)
 
+##Why we use functions ?
+
+*Reusability* once a function is written, it can be written, it can be called a multiple times from within the probability of copy/pase errors.
+
+
+
 
  <details>
 <summary>QuizTime</summary>
