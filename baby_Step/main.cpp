@@ -1,30 +1,19 @@
 #include <iostream> //Proc directive that indicate that we want to use this preprocessor
 using namespace std;
 
-
 #include "functions/calcul.h"
 #include "functions/compare.h"
 #include "functions/age.h"
-
+#include "functions/artihmatic.h"
+#include "functions/input.h"
 
 void calcul();
 int sayHello();
 void compare();
-int add(int x, int y, int z)
-{
-    return x + y + z;
-}
-
-int multiply(int x, int y)
-{
-    return x * y;
-}
-
+int multiply();
+int add();
 int age();
-
-
-
-
+int getInteger();
 int main()
 {
 
@@ -32,7 +21,13 @@ int main()
     // variableAssign();
     // calcul();
     // compare();
-    age();
+    // age();
+    // add(5,2,67);
+    int x = getInteger();
+    int y = getInteger();
+    int z = multiply(x,y);
+    cout << multiply(x,y);
+
 }
 
 /*
