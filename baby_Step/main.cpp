@@ -25,8 +25,10 @@ int main()
     // add(5,2,67);
     int x = getInteger();
     int y = getInteger();
-    int z = multiply(x,y);
-    cout << multiply(x,y);
+    int w = getInteger();
+    // int z = multiply(x,y)
+    // cout << multiply(x,y);
+    cout << add(x,y,w);
 
 }
 
