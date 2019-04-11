@@ -29,9 +29,7 @@ int main()
     // int z = multiply(x,y)
     // cout << multiply(x,y);
     //cout << add(x, y, w);
-#ifdef PRINT_YO
-    cout << "YO\n"
-#endif
+
 }
 
 /*
