@@ -7,6 +7,7 @@ using namespace std;
 #include "functions/artihmatic.h"
 #include "functions/input.h"
 
+
 void calcul();
 int sayHello();
 void compare();
