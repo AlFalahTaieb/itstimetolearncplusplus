@@ -114,7 +114,6 @@ A **function** is a collection of statements that execute sequentially. Every C+
 **Test each piece of code as you go**
 
 
-
  <details>
 <summary>QuizTime</summary>
 
